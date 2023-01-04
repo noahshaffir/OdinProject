@@ -31,3 +31,10 @@ container.appendChild(content);
 container.appendChild(redP);
 container.appendChild(h3);
 container.appendChild(div);
+
+const btn = document.querySelector('#btn');
+btn.onclick=()=>{alert("Hello World 2")};
+const btn2 = document.querySelector('#btn2');
+btn2.addEventListener('click', () => {
+  alert("Hello World 3");
+});
